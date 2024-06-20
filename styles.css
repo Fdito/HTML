@@ -1,13 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    position: static;
+}
 #texto1{
-    display: ;
+    display: block;
     font-size: 50px;
     font-weight: 100px;
     font-family: "Playwrite SK";
     color: #de2828;
     background-color: rgb(232, 106, 106);
     text-align: center;
-    border-radius: 50px;
+    border-radius: 50px 10px 20px 50px;
     border: black 40px dotted;
     padding: 10px;
     margin: 20px;
+}
+
+#contenido{
+    margin: 10px 20%;
+}
+
+/* Style the header */
+#encabezado {
+    top: 0px;
+    padding: 20px;
+    background: #555;
+    color: #f1f1f1;
+    width: 100%;
+    position: fixed;
 }
